@@ -27,8 +27,10 @@ Access the slides for each lecture below:
 |---|-----------------------------------------|-----------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | 1 | Intro                                   | [slide](https://slides.com/russtedrake/fall23-lec01)                  | [video](https://www.youtube.com/watch?v=v04rn86Dehg&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=1) |
 | 2 | Let's get you a robot!                  | [slide](https://slides.com/russtedrake/fall23-lec02)                  | [video](https://www.youtube.com/watch?v=q896_lTh8eA&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=2) |
-| 3 | Basic Pick and Place (Pt. 1)            | [slide](https://slides.com/russtedrake/fall23-lec03)                  | [video](https://www.youtube.com/watch?v=0zvLkA1s9gA&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=3) |
-| 4 | Basic Pick and Place (Pt. 2)            | [slide](https://slides.com/russtedrake/fall23-lec04)                  | [video](https://www.youtube.com/watch?v=0ZcZ1b0eA0A&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=4) |
+| 3 | Basic Pick and Place (Pt. 1)            | [slide](https://slides.com/russtedrake/fall23-lec03)                  | [video](https://www.youtube.com/watch?v=0-34RZJxyww&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=3) |
+| 4 | Basic Pick and Place (Pt. 2)            | [slide](https://slides.com/russtedrake/fall23-lec04)                  | [video](https://www.youtube.com/watch?v=1mkzXp9_QYY&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=4 |
+| 5| Basic Pick and Place (Pt. 3)            | [slide](https://slides.com/russtedrake/fall23-lec04)                  | [video](https://www.youtube.com/watch?v=YaQrC_Zm8qg&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=5) |
+| Chapter 1 to 3 |
 | 5 | Perception: Geometry & Kinematics       | [slide](https://slides.com/russtedrake/fall23-lec05)                  | [video](https://www.youtube.com/watch?v=6v5Tg6y1K5E&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=5) |
 | 6 | Perception: Deep Learning               | [slide](https://slides.com/russtedrake/fall23-lec06)                  | [video](https://www.youtube.com/watch?v=7F5Y6p2f5F4&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=6) |
 | 7 | Planning: Kinematics                    | [slide](https://slides.com/russtedrake/fall23-lec07)                  | [video](https://www.youtube.com/watch?v=8G8Y8p3g8G8&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=7) |
