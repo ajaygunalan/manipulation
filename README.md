@@ -1,9 +1,10 @@
-## Robotic Manipulation (Perception, Planning, and Control) by Prof. Russ Tedrake (2023)
+## Robotic Manipulation (Perception, Planning, and Control) 
+### Prof. Russ Tedrake (2023)
 
 
 
-[Book](https://manipulation.csail.mit.edu/index.html)
-[Course Webpage](https://manipulation.csail.mit.edu/)
+- [Book](https://manipulation.csail.mit.edu/index.html)
+- [Course Webpage](https://manipulation.csail.mit.edu/)
 
 
 
