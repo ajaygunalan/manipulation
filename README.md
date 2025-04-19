@@ -39,8 +39,8 @@
 | 20. Reinforcement Learning (Pt.2) | [slide](https://slides.com/russtedrake/fall23-lec20)        | [video](https://www.youtube.com/watch?v=4a5-zWWz8Fs&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=20)  
 | **Chap 18**  [Underactauted robotics](https://underactuated.csail.mit.edu/sysid.html) |
 | 21. Multibody Parameter Estimation | [slide](https://slides.com/russtedrake/fall23-lec21)        | [video](https://www.youtube.com/watch?v=v_ZLjfbeZmw&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=21)  
-| -- |
-| 22. Foundational Models for Decision Making | [slide](https://slides.com/russtedrake/fall23-lec22)        | [video](https://www.youtube.com/watch?v=XLPObNeeTGg&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=22)  
+| **Guest Lecture** |
+| 22. Foundational Models for Decision Making | N/A       | [video](https://www.youtube.com/watch?v=XLPObNeeTGg&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=22)  
 | **Chap 12** |
 | 23: Soft Manipulation and Tactile Sensing | [slide](https://slides.com/russtedrake/fall23-lec23)        | [video](https://www.youtube.com/watch?v=XjyUGtjjou4&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=23)  
 
