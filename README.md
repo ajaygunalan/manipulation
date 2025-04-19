@@ -1,27 +1,13 @@
-# manipulation
+# Robotic Manipulation
+## Perception, Planning, and Control
+## Russ Tedrake
+
+[Book](https://manipulation.csail.mit.edu/index.html)
+
+Uisng [Drake](https://drake.mit.edu/)
 
 
-[Robotic  Manipulation](https://manipulation.csail.mit.edu/index.html)
 
-
-
-https://slides.com/russtedrake/fall23-lec01
-https://slides.com/russtedrake/fall23-lec02
-https://slides.com/russtedrake/fall23-lec03
-https://slides.com/russtedrake/fall23-lec04
-https://slides.com/russtedrake/fall23-lec05
-https://slides.com/russtedrake/fall23-lec06
-
-
-# GitHub README: Lecture Slides Index
-
-Below is a sample GitHub README section that links to all 23 lecture slides, following the pattern you provided. Each lecture is clearly labeled and hyperlinked for easy access.
-
----
-
-## 📚 Lecture Slides – Fall 2023
-
-Access the slides for each lecture below:
 
 | # | Title                                   | Slide                                                                 | Video                                                                                       |
 |---|-----------------------------------------|-----------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -31,7 +17,6 @@ Access the slides for each lecture below:
 | 3 | Basic Pick and Place (Pt. 1)            | [slide](https://slides.com/russtedrake/fall23-lec03)                  | [video](https://www.youtube.com/watch?v=0-34RZJxyww&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=3) |
 | 4 | Basic Pick and Place (Pt. 2)            | [slide](https://slides.com/russtedrake/fall23-lec04)                  | [video](https://www.youtube.com/watch?v=1mkzXp9_QYY&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=4) |
 | 5| Basic Pick and Place (Pt. 3)            | [slide](https://slides.com/russtedrake/fall23-lec04)                  | [video](https://www.youtube.com/watch?v=YaQrC_Zm8qg&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=5) |
-
 | 5 | Perception: Geometry & Kinematics       | [slide](https://slides.com/russtedrake/fall23-lec05)                  | [video](https://www.youtube.com/watch?v=6v5Tg6y1K5E&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=5) |
 | 6 | Perception: Deep Learning               | [slide](https://slides.com/russtedrake/fall23-lec06)                  | [video](https://www.youtube.com/watch?v=7F5Y6p2f5F4&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=6) |
 | 7 | Planning: Kinematics                    | [slide](https://slides.com/russtedrake/fall23-lec07)                  | [video](https://www.youtube.com/watch?v=8G8Y8p3g8G8&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=7) |
@@ -52,6 +37,3 @@ Access the slides for each lecture below:
 |22 | Research Topics II                      | [slide](https://slides.com/russtedrake/fall23-lec22)                  | [video](https://www.youtube.com/watch?v=5N5O5p8v5N5&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=22)|
 |23 | Final Review / Project Presentations    | [slide](https://slides.com/russtedrake/fall23-lec23)                  | [video](https://www.youtube.com/watch?v=6O6P6q9w6O6&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=23)|
 
-
----
-Answer from Perplexity: pplx.ai/share
