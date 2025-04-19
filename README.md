@@ -1,10 +1,9 @@
-# Robotic Manipulation
-## Perception, Planning, and Control
-## Russ Tedrake
+## Robotic Manipulation (Perception, Planning, and Control) by Prof. Russ Tedrake (2023)
+
+
 
 [Book](https://manipulation.csail.mit.edu/index.html)
-
-Uisng [Drake](https://drake.mit.edu/)
+[Course Webpage](https://manipulation.csail.mit.edu/)
 
 
 
@@ -17,6 +16,7 @@ Uisng [Drake](https://drake.mit.edu/)
 | 3 | Basic Pick and Place (Pt. 1)            | [slide](https://slides.com/russtedrake/fall23-lec03)                  | [video](https://www.youtube.com/watch?v=0-34RZJxyww&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=3) |
 | 4 | Basic Pick and Place (Pt. 2)            | [slide](https://slides.com/russtedrake/fall23-lec04)                  | [video](https://www.youtube.com/watch?v=1mkzXp9_QYY&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=4) |
 | 5| Basic Pick and Place (Pt. 3)            | [slide](https://slides.com/russtedrake/fall23-lec04)                  | [video](https://www.youtube.com/watch?v=YaQrC_Zm8qg&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=5) |
+| **Chapter 4 to y** |
 | 5 | Perception: Geometry & Kinematics       | [slide](https://slides.com/russtedrake/fall23-lec05)                  | [video](https://www.youtube.com/watch?v=6v5Tg6y1K5E&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=5) |
 | 6 | Perception: Deep Learning               | [slide](https://slides.com/russtedrake/fall23-lec06)                  | [video](https://www.youtube.com/watch?v=7F5Y6p2f5F4&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=6) |
 | 7 | Planning: Kinematics                    | [slide](https://slides.com/russtedrake/fall23-lec07)                  | [video](https://www.youtube.com/watch?v=8G8Y8p3g8G8&list=PLkx8KyIQkMfWr191lqbN8WfV08j-ui8WX&index=7) |
