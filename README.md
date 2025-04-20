@@ -7,6 +7,17 @@
 - [Course Webpage](https://manipulation.csail.mit.edu/Fall2024/)
 
 
+###  Quickstart (Drake Python Installtion and Tutorial)
+
+
+```
+python3 -m venv drake_env
+source drake_env/bin/activate
+pip install drake
+pip install notebook
+pip install manipulation[all] --extra-index-url https://drake-packages.csail.mit.edu/whl/nightly/
+python3 -m pydrake.tutorials
+```
 
 
 | Title                           | Slide                                                       | Video                                                                                               |
