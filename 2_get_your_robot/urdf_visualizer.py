@@ -6,6 +6,7 @@ running_as_notebook = False
 # Start the visualizer
 meshcat = StartMeshcat()
 
+# First section: Drake robot models
 # Choose your robot model
 robot = "Kuka LBR iiwa 7"
 # robot = "Kuka LBR iiwa 14"
@@ -33,14 +34,34 @@ def get_model_url(description):
 visualizer = ModelVisualizer(meshcat=meshcat)
 visualizer.AddModels(url=get_model_url(robot))
 
-# Run visualization
-# For a script, we need to either:
-# 1. Use loop_once=False to keep the visualization running until manually stopped
-# 2. Or add some way to keep the script running (like input() or a loop)
-visualizer.Run(loop_once=False)  # Changed from "not running_as_notebook" to explicitly False
-
-# This won't be reached until visualization is stopped
+# Run visualization for the first model
+visualizer.Run(loop_once=True)  # Use loop_once=True to proceed to the next section
 meshcat.DeleteAddedControls()
 
-# To keep the script running and the visualization visible
+# Second section: dm_control model (only if appropriate conditions are met)
+# Since we're not in a notebook, we may want to conditionally run this part
+# For demonstration purposes, let's create a new variable to control this
+# visualize_dm_control = True  # Set to True or False as needed
+
+# if visualize_dm_control:  # Changed from running_as_notebook
+#     meshcat.Delete()
+#     visualizer = ModelVisualizer(meshcat=meshcat)
+#     visualizer.parser().package_map().AddRemote(
+#         package_name="dm_control",
+#         params=PackageMap.RemoteParams(
+#             urls=[
+#                 f"https://github.com/google-deepmind/dm_control/archive/refs/tags/1.0.15.tar.gz"
+#             ],
+#             sha256=("bac091b18689330a99b7c18ddf86baa916527f5e4ab8e3ded0c8caff1dab2048"),
+#             strip_prefix="dm_control-1.0.15/",
+#         ),
+#     )
+#     visualizer.AddModels(url="package://dm_control/dm_control/suite/cheetah.xml")
+#     plant = visualizer.parser().plant()
+#     visualizer.Run(loop_once=False)  # Keep visualization running until closed
+#     meshcat.DeleteAddedControls()
+
+# # Keep the script running to maintain the visualization
+
+
 input("Press Enter to exit...")
