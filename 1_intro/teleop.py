@@ -13,7 +13,8 @@ from manipulation import running_as_notebook
 from manipulation.meshcat_utils import StopButton, WsgButton
 from manipulation.station import LoadScenario, MakeHardwareStation, MakeMultibodyPlant
 from manipulation.systems import AddIiwaDifferentialIK, MultibodyPositionToBodyPose
-
+from manipulation.utils import RenderDiagram
+import pydot
 
 scenario_data = """
 directives:
@@ -201,8 +202,10 @@ def teleop_3d():
     builder.AddSystem(StopButton(meshcat))
 
     diagram = builder.Build()
+    diagram.set_name("Ajay: teleop controller")
     simulator = Simulator(diagram)
     simulator.get_mutable_context()
+
 
     if running_as_notebook:  # Then we're not just running as a test on CI.
         simulator.set_target_realtime_rate(1.0)
@@ -210,10 +213,16 @@ def teleop_3d():
     else:
         simulator.set_target_realtime_rate(0)
         simulator.AdvanceTo(0.1)
+    
+    return diagram
+
 
 
 running_as_notebook = True  # Force notebook mode
 # Start the visualizer.
 meshcat = StartMeshcat()
-# teleop_3d()
-teleop_2d()
+
+diagram = teleop_3d()
+pydot.graph_from_dot_data(diagram.GetGraphvizString(max_depth=1))[0].write_png('diagram_new.png')
+
+
