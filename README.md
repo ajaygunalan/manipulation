@@ -5,7 +5,8 @@
 
 - [Book](https://manipulation.csail.mit.edu/index.html)
 - [Course Webpage](https://manipulation.csail.mit.edu/Fall2024/)
-
+- [Drake API](https://drake.mit.edu/doxygen_cxx/index.html)
+- [Manipulation Package API](https://manipulation.mit.edu/python/index.html)
 
 ###  Quickstart (Drake Python Installtion and Tutorial)
 
