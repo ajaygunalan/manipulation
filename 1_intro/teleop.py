@@ -203,6 +203,20 @@ def teleop_3d():
 
     diagram = builder.Build()
     diagram.set_name("Ajay: teleop controller")
+
+    all_systems = diagram.GetSystems()
+    # for system in all_systems:
+    #     print(system.get_name()
+    station = diagram.GetSubsystemByName("station")
+    print("\nStation subsystems:")
+    station_systems = station.GetSystems()
+    for system in station_systems:
+        print(f"  {system.get_name()}")
+    # Visualize the station's diagram structure
+    print("\nGenerating station diagram...")
+    pydot.graph_from_dot_data(station.GetGraphvizString(max_depth=2))[0].write_png('station_diagram.png')
+    print("Station diagram saved to station_diagram.png")
+
     simulator = Simulator(diagram)
     simulator.get_mutable_context()
 
