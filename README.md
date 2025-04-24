@@ -7,6 +7,8 @@
 - [Course Webpage](https://manipulation.csail.mit.edu/Fall2024/)
 - [Drake API](https://drake.mit.edu/doxygen_cxx/index.html)
 - [Manipulation Package API](https://manipulation.mit.edu/python/index.html)
+- [Drake GitHub](https://github.com/RobotLocomotion/drake)
+- [Manipulation Github](https://github.com/RussTedrake/manipulation)
 
 ###  Quickstart (Drake Python Installtion and Tutorial)
 
